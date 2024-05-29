@@ -2,7 +2,6 @@ import React from 'react';
 import { nextSlide, prevSlide, dotSlide } from '../../features/sliderSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { sliderData } from '../../assets/data/dummyData';
-import { slider } from '@material-tailwind/react';
 const Slider = () => {
     const sliderIndex = useSelector((state) => state.Slider.value);
     const dispatch = useDispatch();
